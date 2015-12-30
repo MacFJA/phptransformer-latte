@@ -1,6 +1,6 @@
 <?php
 
-namespace MacFJA\PhpTransformer\Latte;
+namespace PhpTransformers\Latte;
 
 use Latte\Engine;
 use Latte\Loaders\StringLoader;
@@ -13,7 +13,7 @@ use PhpTransformers\PhpTransformer\TransformerInterface;
  * {@link https://github.com/nette/latte/}
  *
  * @author  MacFJA
- * @package MacFJA\PhpTransformer\Latte
+ * @package PhpTransformers\Latte
  * @license MIT
  */
 class LatteTransformer implements TransformerInterface

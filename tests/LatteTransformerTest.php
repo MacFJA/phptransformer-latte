@@ -1,11 +1,11 @@
 <?php
 
-namespace MacFJA\PhpTransformer\Test\Latte;
+namespace PhpTransformers\Latte\Test;
 
 
 use Latte\Engine;
 use Latte\Loaders\FileLoader;
-use \MacFJA\PhpTransformer\Latte\LatteTransformer;
+use PhpTransformers\Latte\LatteTransformer;
 
 class LatteTransformerTest extends \PHPUnit_Framework_TestCase
 {

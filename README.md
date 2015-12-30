@@ -7,7 +7,7 @@
 Via Composer
 
 ``` bash
-$ composer require macfja/phptransformer-latte
+$ composer require phptransformers/latte
 ```
 
 ## Usage

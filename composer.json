@@ -1,8 +1,9 @@
 {
-    "name": "macfja/phptransformer-latte",
+    "name": "phptransformers/latte",
     "authors": [
         {
-            "name": "MacFJA"
+            "name": "MacFJA",
+            "role": "Developer"
         }
     ],
     "description": "Latte implementation of PhpTransformer",
@@ -18,12 +19,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MacFJA\\PhpTransformer\\Test\\Latte\\": "tests/"
+            "PhpTransformers\\Latte\\Test\\": "tests/"
         }
     },
     "autoload": {
         "psr-4": {
-            "MacFJA\\PhpTransformer\\Latte\\": "lib/"
+            "PhpTransformers\\Latte\\": "lib/"
         }
     }
 }
