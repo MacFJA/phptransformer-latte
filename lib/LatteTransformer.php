@@ -29,8 +29,7 @@ class LatteTransformer implements TransformerInterface
      * Options are:
      *   - "latte" a \Latte\Engine instance
      *   - "tmp-dir" the temporary directory where Latte will store compiled templates
-     *   - "on-compile" a callable or list of callable that Latte will execute before compiling a template
-     * if the option "latte" is provided, options "tmp-dir" and "on-compile" are ignored.
+     * if the option "latte" is provided, option "tmp-dir" is ignored.
      *
      * @param array $options The LatteTransformer options
      */
@@ -45,16 +44,6 @@ class LatteTransformer implements TransformerInterface
 
             if (array_key_exists('temp-dir', $options)) {
                 $this->latte->setTempDirectory($options['temp-dir']);
-            }
-
-            if (array_key_exists('on-compile', $options)) {
-                if (!is_array($options['on-compile'])) {
-                    $actions = array($options['on-compile']);
-                } else {
-                    $actions = $options['on-compile'];
-                }
-                $this->latte->setTempDirectory($options['temp-dir']);
-                $this->latte->onCompile = array_merge($this->latte->onCompile, $actions);
             }
         }
     }
