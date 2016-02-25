@@ -14,7 +14,7 @@ $ composer require phptransformers/latte
 
 ``` php
 $engine = new LatteTransformer();
-echo $engine->render('Hello, {$name}!', array('name' => 'phptransformers');
+echo $engine->render('Hello, {$name}!', array('name' => 'phptransformers'));
 ```
 
 ## Testing

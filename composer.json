@@ -10,7 +10,7 @@
     "license": "MIT",
     "keywords": ["Latte", "Nette", "PhpTransformer", "PhpTransformers", "Templates"],
     "require": {
-        "phptransformers/phptransformer": "~0.0.1",
+        "phptransformers/phptransformer": "~1.0.0",
         "latte/latte": "^2.3"
     },
     "require-dev": {
